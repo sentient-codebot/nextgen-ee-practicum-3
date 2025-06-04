@@ -1,0 +1,20 @@
+[project]
+name = "pgm-arena"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.7",
+    "matplotlib>=3.10.3",
+    "networkx>=3.5",
+    "pandas>=2.2.3",
+    "power-grid-model>=1.10.80",
+    "scipy>=1.15.3",
+]
+
+[dependency-groups]
+dev = [
+    "polars>=1.30.0",
+]
