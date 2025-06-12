@@ -183,3 +183,5 @@ uv.lock
 data/transformer_data.csv
 CAB_radiation_2022-06.tab
 dev_*
+
+.DS_Store
